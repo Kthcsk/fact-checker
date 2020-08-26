@@ -1,0 +1,242 @@
+{
+    "levels":[
+        {
+            "level-one":[
+                {
+                    "number": 1,
+                    "question":"Las personas con asma tienen mayor riesgo ante el COVID-19",
+                    "answer": "true",
+                    "explanation":"Las personas con asma tienen un mayor riesgo de desarrollar una enfermedad grave por COVID-19, este afecta las vías respiratorias y puede causar ataques de asma, neumonía y trastornos respiratorios agudos."
+                },
+                {
+                    "number": 2,
+                    "question":"Las infusiones con miel, limón o jengibre ¿curan el COVID-19?",
+                    "answer": "false",
+                    "explanation":"Las infusiones son las grandes aliadas para el alivio de los síntomas de la gripe y los resfriados, también de la covid. Sin embargo, esto no cura el covid."
+                },
+                {
+                    "number": 3,
+                    "question":"¿Las moscas domésticas pueden transmitir el COVID-19?",
+                    "answer": "false",
+                    "explanation":"Hasta la fecha no existe ningún dato ni información que indique que las moscas domésticas puedan transmitir el virus causante de la COVID-19."
+                },
+                {
+                    "number": 4,
+                    "question":"¿El coronavirus puede afectar a personas jóvenes?",
+                    "answer": "verdadero",
+                    "explanation":"El nuevo coronavirus (2019-nCoV) puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas enfermedades (como el asma, la diabetes o las cardiopatías) tienen más probabilidades de enfermarse gravemente cuando adquieren la infección."
+                },
+                {
+                    "number": 5,
+                    "question":"Los termómetros sin contacto NO detectan el COVID-19",
+                    "answer": "verdadero",
+                    "explanation":"Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre. Sin embargo, no permiten detectar a personas infectadas por el virus de la COVID-19."
+                },
+                {
+                    "number": 6,
+                    "question":"¿Rociar el cuerpo con alcohol y cloro es efectivo para eliminar el Coronavirus?",
+                    "answer": "false",
+                    "explanation":"Esto no tiene ningún efecto para que el virus no pueda acceder por su principal puerta de entrada, que es la mucosa respiratoria."
+                }
+            ],
+            "level-two":[
+                {
+                    "number": 1,
+                    "question":"¿Qué famoso alimento ha sido falsamente señalado como una cura del virus?",
+                    "options":[
+                        {
+                            "a":"Choclo",
+                            "b":"Ajo",
+                            "c":"Lechuga"
+                        }
+                    ],
+                    "answer": "Ajo",
+                    "explanation":"El ajo es un alimento saludable y posee propiedades antimicrobianas, pero no hay evidencia de que comer ajo proteja a nadie respecto a la infección por coronavirus."
+                },
+                {
+                    "number": 2,
+                    "question":"Con el confinamiento se pretende…",
+                    "options":[
+                        {
+                            "a":"Aplanar la curva",
+                            "b":"Descansar en casa",
+                            "c":"Pasar más tiempo con la familia"
+                        }
+                    ],
+                    "answer": "Aplanar la curva",
+                    "explanation":"Falta esto"
+                },
+                {
+                    "number": 3,
+                    "question":"¿Cuántas cepas de Coronavirus relacionados con enfermedades respiratorias en humanos existen?",
+                    "options":[
+                        {
+                            "a":10,
+                            "b":5,
+                            "c":7
+                        }
+                    ],
+                    "answer": 7,
+                    "explanation":"Los coronavirus son una extensa familia de virus que pueden causar enfermedades tanto en animales como en humanos. En los humanos, se sabe que varios coronavirus causan infecciones respiratorias que pueden ir desde el resfriado común hasta enfermedades más graves como el síndrome respiratorio de Oriente Medio (MERS) y el síndrome respiratorio agudo severo (SRAS). El coronavirus que se ha descubierto más recientemente causa la enfermedad por coronavirus COVID-19."
+                },
+                {
+                    "number": 4,
+                    "question":"¿Hasta cuántos días se estima que demora en incubar el virus en el cuerpo?",
+                    "options":[
+                        {
+                            "a":"10 días",
+                            "b":"14 días",
+                            "c":"7 días"
+                        }
+                    ],
+                    "answer": "14 días",
+                    "explanation":"El “período de incubación” es el tiempo que transcurre entre la infección por el virus y la aparición de los síntomas de la enfermedad. La mayoría de las estimaciones respecto al periodo de incubación de COVID-19 oscilan entre 1 y 14 días, y en general se sitúan en torno a cinco días."
+                },
+                {
+                    "number": 5,
+                    "question":"¿Cuántos días debe mantener una cuarentena alguien que estuvo en contacto con una persona con COVID-19?",
+                    "options":[
+                        {
+                            "a":"20 días",
+                            "b":"7 días",
+                            "c":"14 días"
+                        }
+                    ],
+                    "answer": "14 días",
+                    "explanation": "El aislamiento domiciliario (cuarentena) durará 14 días, desde que estuvo en contacto con una persona con COVID-19 en su periodo sintomático o desde la fecha de salida de un país que tiene un brote activo de COVID-19. El tiempo del aislamiento domiciliario (cuarentena) está determinado por el periodo de incubación del SARS-CoV-2."
+                },
+                {
+                    "number": 6,
+                    "question":"¿Cómo se llama al síntoma de dificultad para respirar?",
+                    "options":[
+                        {
+                            "a":"Disnea",
+                            "b":"Cefalea",
+                            "c":"Hiperventilación"
+                        }
+                    ],
+                    "answer": "Disnea",
+                    "explanation":"Pendiente"
+                }
+            ],
+            "level-three":[
+                {
+                    "number": 1,
+                    "question":"¿Puede mi mascota contagiarme el COVID-19?",
+                    "answer": "false",
+                    "explanation":"No hay pruebas hasta la fecha que demuestran que mascotas como los gatos o los perros puedan transmitir el virus que ocasiona el COVID-19."
+                },
+                {
+                    "number": 2,
+                    "question":"¿La enfermedad por coronavirus es lo mismo que la gripe?",
+                    "answer": "false",
+                    "explanation":"No. La enfermedad por coronavirus (COVID-19) y la gripe son enfermedades infecciosas distintas, causadas por virus distintos. Aunque las dos son enfermedades respiratorias que se transmiten de una forma similar (a través de las gotas de la respiración) y pueden tener síntomas parecidos (fiebre, tos y falta de aire), presentan otras características diferentes."
+                },
+                {
+                    "number": 3,
+                    "question":"¿Puede la enfermedad por coronavirus (COVID-19) transmitirse tanto en temperaturas cálidas como frías?",
+                    "answer": "true",
+                    "explanation":"Sí. El virus se está propagando por lugares con temperaturas cálidas y frías por igual. Por el momento, no se sabe si las condiciones climáticas estacionales y los cambios de temperatura repercutirán sobre la transmisión de la enfermedad por coronavirus (COVID-19)"
+                },
+                {
+                    "number": 4,
+                    "question":"¿Pueden las cartas, los productos y los paquetes estar contaminados por el virus causante del coronavirus?",
+                    "answer": "true",
+                    "explanation":"Sí. Se aconseja limpiar la superficie del paquete con un producto o toallitas desinfectantes antes de tocarlo o abrirlo, y desecha el paquete en un contenedor cerrado. Inmediatamente después, lávate las manos con agua y jabón o con un desinfectante de manos con alcohol. "
+                },
+                {
+                    "number": 5,
+                    "question":"¿Es posible esterilizar y reutilizar las mascarillas poniéndolas en vapor a altas temperaturas?",
+                    "answer": "false",
+                    "explanation":"Las mascarillas pierden su eficacia al ser expuestas a la humedad: “Si se refiere al uso comunitario, domiciliario o doméstico de mascarillas, esta forma de tratarlas podría hacer que pierdan su capacidad de proteger. Para que la mascarilla realmente proteja, no debe tener manchas, fisuras ni estar húmeda."
+                },
+                {
+                    "number": 6,
+                    "question":"Bañarse en agua caliente no previene la infección por el nuevo coronavirus",
+                    "answer": "true",
+                    "explanation":"Bañarse en agua caliente no proporciona ninguna protección contra el COVID-19. Con independencia de la temperatura del agua de la bañera o la ducha, la temperatura corporal continuará siendo de 36,5 °C a 37 °C."
+                }
+            ],
+            "level-four":[
+                {
+                    "number": 1,
+                    "question":"En ________ de 2019 se detectó el primer caso de Coronavirus en China.",
+                    "options":[
+                        {
+                            "a":"Octubre",
+                            "b":"Noviembre",
+                            "c":"Diciembre"
+                        }
+                    ],
+                    "answer": "Octubre",
+                    "explanation":"Pendiente"
+                },
+                {
+                    "number": 2,
+                    "question":"Evitar tocarse la cara, nariz y ________.",
+                    "options":[
+                        {
+                            "a":"Codos",
+                            "b":"Pies",
+                            "c":"Ojos"
+                        }
+                    ],
+                    "answer": "Ojos",
+                    "explanation":"Las manos tocan muchas superficies que pueden estar contaminadas con el virus. Si se toca los ojos, la nariz o la boca con las manos contaminadas, puedes transferir el virus de la superficie a sí mismo."
+                },
+                {
+                    "number": 3,
+                    "question":"Al toser deberíamos cubrirnos la boca con la parte interna ________.",
+                    "options":[
+                        {
+                            "a":"Del codo",
+                            "b":"De la mano",
+                            "c":"Del hombro"
+                        }
+                    ],
+                    "answer": "Del codo",
+                    "explanation":"Al toser o estornudar, cúbrase la boca y la nariz con el codo flexionado o con un pañuelo; tire el pañuelo inmediatamente y lávese las manos con un desinfectante de manos a base de alcohol, o con agua y jabón. Al cubrir la boca y la nariz durante la tos o el estornudo se evita la propagación de gérmenes y virus. Si usted estornuda o tose cubriéndose con las manos puede contaminar los objetos o las personas a los que toque."
+                },
+                {
+                    "number": 4,
+                    "question":"Los geles con ________ son útiles frente al coronavirus.",
+                    "options":[
+                        {
+                            "a":"Lidocaína",
+                            "b":"Diclofenaco",
+                            "c":"Alcohol"
+                        }
+                    ],
+                    "answer": "Alcohol",
+                    "explanation":"Utiliza alcohol gel  de manos cuando no tengas disponible agua y jabón."
+                },
+                {
+                    "number": 5,
+                    "question":"La OMS recomienda una distancia mínima de ________ para evitar contagios.",
+                    "options":[
+                        {
+                            "a":"1 m.",
+                            "b":"4 m.",
+                            "c":"3 m."
+                        }
+                    ],
+                    "answer": "1 m.",
+                    "explanation":"Mantenga al menos 1 metro (3 pies) de distancia entre usted y las demás personas, particularmente aquellas que tosan, estornuden y tengan fiebre. Cuando alguien con una enfermedad respiratoria, como la infección por el 2019-nCoV, tose o estornuda, proyecta pequeñas gotículas que contienen el virus. Si está demasiado cerca, puede inhalar el virus."
+                },
+                {
+                    "number": 6,
+                    "question":"Deberías lavarte las manos durante ________ para eliminar la enfermedad por coronavirus.",
+                    "options":[
+                        {
+                            "a":"15 segundos",
+                            "b":"20 segundos",
+                            "c":"1 minuto"
+                        }
+                    ],
+                    "answer": "20 segundos",
+                    "explanation":"Como mínimo, 20 segundos. Es lo que se tarda en cantar el “cumpleaños feliz” dos veces. Lávate las manos con frecuencia con agua y jabón, sobre todo antes de comer; también después de sonarte la nariz, toser o estornudar, así como después de ir al baño."
+                }
+            ]
+        }
+    ]
+}
