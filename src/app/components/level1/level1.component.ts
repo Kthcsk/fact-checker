@@ -10,6 +10,7 @@ export class Level1Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log('holi')
   }
 
 }
