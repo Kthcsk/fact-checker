@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -11,48 +11,8 @@ import { Level4Component } from './components/level4/level4.component';
 import { WrongComponent } from './components/wrong/wrong.component';
 import { CorrectComponent } from './components/correct/correct.component';
 
-import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
-
-const route: Routes = [
-  {
-    path: '',
-    pathMatch: 'full',
-    redirectTo: 'home'
-  },
-  {
-    path: 'home',
-    component: HomeComponent
-  },
-  {
-    path: 'menu',
-    component: MenuComponent
-  },
-  {
-    path: 'level1',
-    component: Level1Component
-  },
-  {
-    path: 'level2',
-    component: Level2Component
-  },
-  {
-    path: 'level3',
-    component: Level3Component
-  },
-  {
-    path: 'level4',
-    component: Level4Component
-  },
-  {
-    path: 'wrong',
-    component: WrongComponent
-  },
-  {
-    path: 'correct',
-    component: CorrectComponent
-  },
-]
 
 @NgModule({
   declarations: [
@@ -68,9 +28,10 @@ const route: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(route)
+    AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }
