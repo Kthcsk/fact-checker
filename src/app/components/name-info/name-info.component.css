@@ -3,6 +3,10 @@
   background:#23BDEA;
 }
 
+P, h2 {
+  color: #F1F1F1;
+}
+
 input {
   border-radius: 20px;
   outline: none;
@@ -31,7 +35,6 @@ input {
   width: 9.25em;
   height: 5.62em;
   text-align: center;
-  margin: 2.18em;
 }
 
 .item-bottom {

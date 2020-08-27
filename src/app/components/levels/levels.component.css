@@ -1,3 +1,7 @@
+h6, h2 {
+  color: #F1F1F1;
+}
+
 .bg-color {
   height: 100vh;
   background:#23BDEA;
@@ -5,6 +9,10 @@
 
 .txt-ctn {
   margin-top: 10em;
+}
+
+.boldS {
+  font-weight: 900;
 }
 
 .square-levels {
@@ -17,6 +25,10 @@
 .row-container {
   display: flex;
   flex-direction: row;
+}
+
+i {
+  color: #F1F1F1;
 }
 
 .level1 {
