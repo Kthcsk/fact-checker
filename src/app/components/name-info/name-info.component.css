@@ -1,3 +1,10 @@
+/* font-family: 'Lato', sans-serif; */
+
+*{
+  font-family: 'Lato', sans-serif;
+  color: #f1f1f1;
+}
+
 h3 {
   font-size: 1.87rem;
 }
