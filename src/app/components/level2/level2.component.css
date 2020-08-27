@@ -1,7 +1,14 @@
 .level2-ctn {
   background-color: #23BDEA;
+  height: 100vh;
 }
 
 .optionS {
+background: #0E98BF;
+box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
+color: #F1F1F1;
+}
+.cS {
+color: #3F3F3F;
 }
