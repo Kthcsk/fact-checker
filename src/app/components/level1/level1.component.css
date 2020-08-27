@@ -1,4 +1,8 @@
-body{
-  background:rgb(170, 170, 255);
+.level1-ctn {
+  background-color: #23BDEA;
+  height:100vh;
 }
-
+.optionS {
+  border-radius: 20px;
+  background: #0E98BF;
+}
