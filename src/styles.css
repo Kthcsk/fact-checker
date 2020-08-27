@@ -3,22 +3,28 @@
   padding: 0px;
   font-family: 'Lato', sans-serif;
 }
+
 h1 {
   font-size: 2.81rem;
 }
+
 h2 {
   font-size: 2.18rem;
   font-weight: 900;
 }
+
 h3 {
   font-size: 1.87rem;
 }
+
 h4{
   font-size: 1.56rem;
 }
+
 h6 {
   font-size: 1.25rem;
 }
+
 p {
   font-size: 1.06rem;
 }

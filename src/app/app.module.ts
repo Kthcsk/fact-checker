@@ -3,6 +3,8 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { NameInfoComponent } from './components/name-info/name-info.component';
+import { LevelsComponent } from './components/levels/levels.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { Level1Component } from './components/level1/level1.component';
 import { Level2Component } from './components/level2/level2.component';
@@ -15,6 +17,8 @@ import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
 import { LevelsJsonService } from '../app/services/levels-json.service'
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +29,9 @@ import { LevelsJsonService } from '../app/services/levels-json.service'
     Level3Component,
     Level4Component,
     WrongComponent,
-    CorrectComponent
+    CorrectComponent,
+    NameInfoComponent,
+    LevelsComponent
   ],
   imports: [
     BrowserModule,

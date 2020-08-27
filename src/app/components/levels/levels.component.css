@@ -1,0 +1,52 @@
+h6, h2 {
+  color: #F1F1F1;
+}
+
+.bg-color {
+  height: 100vh;
+  background:#23BDEA;
+}
+
+.txt-ctn {
+  margin-top: 10em;
+}
+
+.boldS {
+  font-weight: 900;
+}
+
+.square-levels {
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+  width: 8.31em;
+  height: 7.56em;
+  margin: 0.875em;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+i {
+  color: #F1F1F1;
+}
+
+.level1 {
+  border-radius: 20px 0px 0px 0px;
+  background: #A27CC1;
+}
+
+.level2 {
+  border-radius: 0px 20px 0px 0px;
+  background: #9B63C9;
+}
+
+.level3 {
+  border-radius: 0px 0px 0px 20px;
+  background: #70399E;
+}
+
+.level4 {
+  border-radius: 0px 0px 20px 0px;
+  background: #562281;;
+}
