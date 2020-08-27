@@ -1,19 +1,30 @@
-/* .ctn-wrong{
-    display: flex;
-    background-color: #562281;
-    height: 100vh;
-    width: 100%;
-} */
-
 .wrong-ctn{
     height: 100vh;
     background-color: #562281;  
 }
 
-h2{
-    font-size: 2.18rem;
+.text-ctn{
+    padding-top: 10em;
 }
 
 h4{
-    font-size: 1.51rem;
+    padding-top: 3em;
+}
+
+p{
+    padding-top: 8em;
+}
+
+.btn-retry{
+    width: 80px; 
+    height: 80px; 
+    bottom: 45px; 
+    position: absolute; 
+    background-color: #F1F1F1;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+i.retry{
+    color: #562281;
+    font-size: 45px;
 }
