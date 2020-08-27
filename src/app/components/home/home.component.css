@@ -1,3 +1,12 @@
-body{
-  background:rgb(255, 168, 168);
+.bg-color {
+  height: 100vh;
+  background:#23BDEA;
+}
+
+.txt-ctn {
+  margin-top: 7em;
+}
+
+h2, h3, h6, p {
+  color: #F1F1F1;
 }
