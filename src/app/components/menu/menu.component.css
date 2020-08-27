@@ -1,43 +1,8 @@
-/* .ctn-menu{
-    display: flex;
-    width: 100%;
-    height: 100vh;
-} */
-
-/* .menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 80px;
-    background-color: #00B2ED;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
+.nav-bar{
+    height: 130px;
     bottom: 0;
     position: fixed;
 }
-
-.ctn-buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 75%;
-    background-color: #00B2ED;
-}
-
-button{
-    background: #00B2ED;
-    border: none;
-    font-size: 45px;
-}
-
-i{
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   color: #F1F1F1;
-}
-
-} */
 
 .menu-ctn{
     background-image: url('../../../assets/image/menu-responsive.png');
@@ -57,5 +22,19 @@ button{
 
 i{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #F1F1F1;
 }
 
+.btn-retry{
+    width: 80px; 
+    height: 80px; 
+    bottom: 45px; 
+    position: absolute; 
+    background-color: #F1F1F1;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+i.retry{
+    color: #562281;
+    font-size: 45px;
+}
