@@ -1,6 +1,22 @@
-.ctn-correct{
+/* .ctn-correct{
     display: flex;
     background-color: #7ED634;
     height: 100vh;
     width: 100%;
+}
+button{
+    background-color: #7ED634;
+    border: none;
+} */
+
+.correct-ctn{
+    height: 100vh;
+}
+
+h1{
+    font-size: 2.24rem;
+}
+
+h4{
+    font-size: 1.51rem;
 }
