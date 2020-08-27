@@ -1,6 +1,19 @@
-.ctn-wrong{
+/* .ctn-wrong{
     display: flex;
     background-color: #562281;
     height: 100vh;
     width: 100%;
+} */
+
+.wrong-ctn{
+    height: 100vh;
+    background-color: #562281;  
+}
+
+h2{
+    font-size: 2.18rem;
+}
+
+h4{
+    font-size: 1.51rem;
 }
