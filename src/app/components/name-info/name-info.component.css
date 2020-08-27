@@ -1,28 +1,39 @@
-/* font-family: 'Lato', sans-serif; */
-
-*{
-  font-family: 'Lato', sans-serif;
-  color: #f1f1f1;
-}
-
-h3 {
-  font-size: 1.87rem;
-}
-
-h2 {
-  font-size: 2.18rem;
-  font-weight: 900;
-}
-
-h6 {
-  font-size: 1.06rem;
-}
-
-p {
-  font-size: 1.25rem;
-}
-
 .bg-color {
+  height: 100vh;
   background:#23BDEA;
-  padding-top: 14.37rem;
+}
+
+input {
+  border-radius: 20px;
+  outline: none;
+  border: 0;
+  height: 4.625em;
+  width: 17em;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.txt-ctn {
+  margin-top: 10em;
+}
+
+.info-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.square-info {
+  background-color: #0E98BF;
+  border-radius: 10px;
+  padding: 0.62em;
+  width: 9.25em;
+  height: 5.62em;
+  text-align: center;
+  margin: 2.18em;
+}
+
+.item-bottom {
+  margin-top: 4.5em;
 }
