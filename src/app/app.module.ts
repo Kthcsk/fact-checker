@@ -12,19 +12,12 @@ import { Level3Component } from './components/level3/level3.component';
 import { Level4Component } from './components/level4/level4.component';
 import { WrongComponent } from './components/wrong/wrong.component';
 import { CorrectComponent } from './components/correct/correct.component';
+import { SourceComponent } from './components/source/source.component'
 
 import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
-<<<<<<< HEAD
 import { LevelsJsonService } from '../app/services/levels-json.service';
-import { SourceComponent } from './components/source/source.component'
-
-
-=======
 import { HttpClientModule } from '@angular/common/http';
-
-import { LevelsJsonService } from '../app/services/levels-json.service';
->>>>>>> json
 
 @NgModule({
   declarations: [
