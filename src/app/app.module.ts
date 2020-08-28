@@ -15,10 +15,16 @@ import { CorrectComponent } from './components/correct/correct.component';
 
 import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
+<<<<<<< HEAD
 import { LevelsJsonService } from '../app/services/levels-json.service';
 import { SourceComponent } from './components/source/source.component'
 
 
+=======
+import { HttpClientModule } from '@angular/common/http';
+
+import { LevelsJsonService } from '../app/services/levels-json.service';
+>>>>>>> json
 
 @NgModule({
   declarations: [
@@ -37,7 +43,8 @@ import { SourceComponent } from './components/source/source.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [LevelsJsonService],
   bootstrap: [AppComponent],
