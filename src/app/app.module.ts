@@ -15,7 +15,8 @@ import { CorrectComponent } from './components/correct/correct.component';
 
 import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
-import { LevelsJsonService } from '../app/services/levels-json.service'
+import { LevelsJsonService } from '../app/services/levels-json.service';
+import { SourceComponent } from './components/source/source.component'
 
 
 
@@ -31,7 +32,8 @@ import { LevelsJsonService } from '../app/services/levels-json.service'
     WrongComponent,
     CorrectComponent,
     NameInfoComponent,
-    LevelsComponent
+    LevelsComponent,
+    SourceComponent
   ],
   imports: [
     BrowserModule,
