@@ -29,7 +29,7 @@ export class LevelsJsonService {
     let body = res;
     return body || {};
   }
-  getProducts():Observable<any>{
+  getQuiz():Observable<any>{
     console.log(this.urlDataJSON )
     return this.httpClient.get( this.urlDataJSON ).pipe(map(this.extractData), catchError(this.handleError));
 

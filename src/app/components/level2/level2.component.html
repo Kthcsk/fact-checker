@@ -1,39 +1,20 @@
 <div class="container-fluid level2-ctn">
-<button class="btn optionS" type="button" *ngFor="let item of options1;let i = index; " (click)="getProduct(i)">{{item.number}}</button>
   <div class="d-flex justify-content-center pt-5">
     <div class="flex-col">
 
       <div class="card" style="width: 18rem;">
         <div class="card-body">
-          <div class="cS" *ngFor="let product of products; let i = index; " (click)="addProduct(i)"> <h6>{{product.question}}</h6> </div>
+          <div class="cS" *ngFor="let question of questions; let i = index; " (click)="getQuiz(i)"> <h6>{{question.question}}</h6> </div>
         </div>
       </div>
 
       <div class="d-flex justify-content-center pt-3">
-        <button class="btn optionS" type="button" *ngFor="let item of options1;let i = index; " (click)="getProduct(i)">{{item.number}}</button>
+        <button class="btn optionS" type="button" *ngFor="let item of questions;let i = index; " (click)="getQuiz(i)">{{item.options}}</button>
       </div>
-
-
-      <div class="d-flex justify-content-center pt-3">
-        <button class="btn optionS" type="button" *ngFor="let product of products; let i = index; " (click)="addProduct(i)">{{product.options}}</button>
-      </div>
-
 
     </div>
   </div>
 
 </div>
 
-<div class="row mt-3">
-  <div class="col-3">
-    <div class="card  mb-2" *ngFor="let product of products; let i = index;">
-      <a (click)="addProduct(i)">
-        <img src="{{product.image}}" class="card-img-top w-100" alt="{{product.food}}">
-        <div class="card-body-dark">
-          <p class="card-text-dark">{{product.food}}</p>
-          <h5 class="card-title text-right">$ {{product.price |number }}</h5>
-        </div>
-      </a>
-    </div>
-  </div>
 

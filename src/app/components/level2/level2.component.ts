@@ -9,17 +9,16 @@ import { LevelsJsonService } from 'src/app/services/levels-json.service';
 })
 export class Level2Component implements OnInit {
 
-products: any[] = [];
-indexMenu: number = 0;
-options1: any[] = [];
-public selectProduct: any[] = [];
+quiz: any[] = [];
+indexQuiz: number = 0;
+questions: any[] = [];
 
   constructor(private LevelsService: LevelsJsonService) {
-    LevelsService.getProducts().subscribe(
+    LevelsService.getQuiz().subscribe(
       (data) => {
-        console.log(data.levels[0]["level-two"])
-        this.options1 = data.levels[0]["level-two"];
-        this.getProduct(this.indexMenu);
+        console.log(data.levels[0]["level-two"][0])
+        this.questions = data.levels[0]["level-two"][0];
+        this.getQuiz(this.indexQuiz);
 
       },
       (err) => {
@@ -32,17 +31,14 @@ public selectProduct: any[] = [];
   ngOnInit(): void {
   }
 
-  getProduct(index: number) {
-    this.products = this.options1[index]['level-two'];
-    this.indexMenu = index;
+  getQuiz(index: number) {
+    this.quiz = this.questions[index]["level-two"];
+    this.indexQuiz = index;
   }
 
-  addProduct(index: number) {
-    this.selectProduct.push({
-      number2: this.products[index]['number'],
-      options2: this.products[index]['options'],
-      question: this.products[index]['question']
-    });
-  }
+
+
+
+
 
 }
