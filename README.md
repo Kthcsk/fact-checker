@@ -12,6 +12,10 @@
 
 El producto es una trivia diseñada para informarse de manera didáctica y divertida sobre la pandemia global actual, llamada covid 19
 
+### Pruebala
+
+[Trivia](Link de la pag final heheh)
+
 ## 2. Decisiones de diseño
 
 ### Diagrama de flujo 
@@ -42,7 +46,7 @@ Reglas de tamaño y grosor
 
 ###  Prototipo de alta fidelidad
 
-<img src="">
+<img src="https://github.com/pamelanancupil/fact-checker/blob/master/src/assets/image/Readme.md/prototipoDeAltaFidelidadFinal.JPG">
 
 ### Guia base 
 
