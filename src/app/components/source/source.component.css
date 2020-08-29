@@ -1,0 +1,21 @@
+.source-ctn{
+    height: 100vh;
+    background:#23BDEA;
+}
+
+.title{
+    padding-top: 6em;
+    font-weight: 900;
+    color: #F1F1F1;
+}
+
+a{
+    font-size: 1.25rem;
+    color: #F1F1F1;
+}
+
+p{
+    font-size: 1.06rem;
+    color: #F1F1F1;
+    margin: 0;
+}
