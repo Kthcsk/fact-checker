@@ -5,36 +5,72 @@
                 {
                     "number": 1,
                     "question":"Las personas con asma tienen mayor riesgo ante el COVID-19",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "true",
                     "explanation":"Las personas con asma tienen un mayor riesgo de desarrollar una enfermedad grave por COVID-19, este afecta las vías respiratorias y puede causar ataques de asma, neumonía y trastornos respiratorios agudos."
                 },
                 {
                     "number": 2,
                     "question":"Las infusiones con miel, limón o jengibre ¿curan el COVID-19?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"Las infusiones son las grandes aliadas para el alivio de los síntomas de la gripe y los resfriados, también de la covid. Sin embargo, esto no cura el covid."
                 },
                 {
                     "number": 3,
                     "question":"¿Las moscas domésticas pueden transmitir el COVID-19?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"Hasta la fecha no existe ningún dato ni información que indique que las moscas domésticas puedan transmitir el virus causante de la COVID-19."
                 },
                 {
                     "number": 4,
                     "question":"¿El coronavirus puede afectar a personas jóvenes?",
-                    "answer": "verdadero",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
+                    "answer": "true",
                     "explanation":"El nuevo coronavirus (2019-nCoV) puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas enfermedades (como el asma, la diabetes o las cardiopatías) tienen más probabilidades de enfermarse gravemente cuando adquieren la infección."
                 },
                 {
                     "number": 5,
                     "question":"Los termómetros sin contacto NO detectan el COVID-19",
-                    "answer": "verdadero",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
+                    "answer": "true",
                     "explanation":"Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre. Sin embargo, no permiten detectar a personas infectadas por el virus de la COVID-19."
                 },
                 {
                     "number": 6,
                     "question":"¿Rociar el cuerpo con alcohol y cloro es efectivo para eliminar el Coronavirus?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"Esto no tiene ningún efecto para que el virus no pueda acceder por su principal puerta de entrada, que es la mucosa respiratoria."
                 }
@@ -123,36 +159,72 @@
                 {
                     "number": 1,
                     "question":"¿Puede mi mascota contagiarme el COVID-19?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"No hay pruebas hasta la fecha que demuestran que mascotas como los gatos o los perros puedan transmitir el virus que ocasiona el COVID-19."
                 },
                 {
                     "number": 2,
                     "question":"¿La enfermedad por coronavirus es lo mismo que la gripe?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"No. La enfermedad por coronavirus (COVID-19) y la gripe son enfermedades infecciosas distintas, causadas por virus distintos. Aunque las dos son enfermedades respiratorias que se transmiten de una forma similar (a través de las gotas de la respiración) y pueden tener síntomas parecidos (fiebre, tos y falta de aire), presentan otras características diferentes."
                 },
                 {
                     "number": 3,
                     "question":"¿Puede la enfermedad por coronavirus (COVID-19) transmitirse tanto en temperaturas cálidas como frías?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "true",
                     "explanation":"Sí. El virus se está propagando por lugares con temperaturas cálidas y frías por igual. Por el momento, no se sabe si las condiciones climáticas estacionales y los cambios de temperatura repercutirán sobre la transmisión de la enfermedad por coronavirus (COVID-19)"
                 },
                 {
                     "number": 4,
                     "question":"¿Pueden las cartas, los productos y los paquetes estar contaminados por el virus causante del coronavirus?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "true",
                     "explanation":"Sí. Se aconseja limpiar la superficie del paquete con un producto o toallitas desinfectantes antes de tocarlo o abrirlo, y desecha el paquete en un contenedor cerrado. Inmediatamente después, lávate las manos con agua y jabón o con un desinfectante de manos con alcohol. "
                 },
                 {
                     "number": 5,
                     "question":"¿Es posible esterilizar y reutilizar las mascarillas poniéndolas en vapor a altas temperaturas?",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "false",
                     "explanation":"Las mascarillas pierden su eficacia al ser expuestas a la humedad: “Si se refiere al uso comunitario, domiciliario o doméstico de mascarillas, esta forma de tratarlas podría hacer que pierdan su capacidad de proteger. Para que la mascarilla realmente proteja, no debe tener manchas, fisuras ni estar húmeda."
                 },
                 {
                     "number": 6,
                     "question":"Bañarse en agua caliente no previene la infección por el nuevo coronavirus",
+                    "options":[
+                      {
+                          "a":"Verdadero",
+                          "b":"Falso"
+                      }
+                    ],
                     "answer": "true",
                     "explanation":"Bañarse en agua caliente no proporciona ninguna protección contra el COVID-19. Con independencia de la temperatura del agua de la bañera o la ducha, la temperatura corporal continuará siendo de 36,5 °C a 37 °C."
                 }

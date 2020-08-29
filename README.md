@@ -1,27 +1,70 @@
-# FactChecker
+# Open project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.9.
+## Índice
 
-## Development server
+* [1. Definición de producto](#1-Definición-de-producto)
+* [2. Decisiones de diseño](#2-Decisiones-de-diseño)
+* [3. Historias de usuario](#3-Historias-de-usuario)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+***
 
-## Code scaffolding
+## 1. Definición de producto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+El producto es una trivia diseñada para informarse de manera didáctica y divertida sobre la pandemia global actual, llamada covid 19
 
-## Build
+## 2. Decisiones de diseño
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Diagrama de flujo 
 
-## Running unit tests
+<img src="https://github.com/LiRizo/fact-checker/blob/master/src/assets/image/Readme.md/diagramaDeFlujo.jpg">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+###  Prototipo de baja fidelidad
 
-## Running end-to-end tests
+<img src="https://github.com/pamelanancupil/fact-checker/blob/master/src/assets/image/Readme.md/prototipoDeBaja.JPG">
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Definición de usuario
 
-## Further help
+Jóvenes y adultos que tienen acceso a internet y desean obtener información confiable acerca del covid 19, enfocando la accesibilidad a los adultos mayores. 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+###  Guia de estilos
+
+<img src="https://github.com/LiRizo/fact-checker/blob/master/src/assets/image/Readme.md/guiaDeEstilo.JPG">
+
+###  Tipografía 
+
+En cuanto a la tipografía, se requería que fuera simple y de fácil lectura, por esa razón se escogió Lato que se encuentra en Google font:
+
+[Lato](https://fonts.google.com/specimen/Lato)
+
+Reglas de tamaño y grosor
+
+<img src="https://github.com/LiRizo/fact-checker/blob/master/src/assets/image/Readme.md/guiaDeTipografia.JPG">
+
+###  Prototipo de alta fidelidad
+
+<img src="">
+
+### Guia base 
+
+<img src="https://github.com/pamelanancupil/fact-checker/blob/master/src/assets/image/Readme.md/guiaDeEstiloBase.JPG">
+
+## 3. Historias de usuario
+
+**Historia 1:**  Yo como usuario **quiero** conocer de qué se trata la trivia de manera clara **para** entenderlo bien de manera legible y con información breve.
+
+* **Historia 2:**   Yo como usuario **quiero** poder ingresar mi nombre **para** personalizar mi experiencia.
+
+* **Historia 3:**  Yo como usuario **quiero** poder ingresar al nivel más fácil **para** comenzar la trivia.
+
+* **Historia 4:** Yo como usuario **quiero** leer la pregunta y opciones de respuesta de manera clara **para** seleccionar la correcta.
+
+* **Historia 5:**  Yo como usuario **quiero** seleccionar la respuesta que considero correcta y que cambie de color **para** notarlo mejor.
+
+* **Historia 6:**  Después de seleccionar la respuesta **quiero** poder ver la solución con la fuente de donde se obtuvo la información **para** asegurar que es confiable.
+
+* **Historia 7:**  Una vez finalizado el nivel **quiero** saber los resultados **para** conocer cuántas respuestas correctas obtuve.
+
+* **Historia 8:**  Después de completar el nivel, **quiero** poder avanzar al siguiente **para** resolver más preguntas.
+
+* **Historia 9:**  Yo como usuario **quiero** poder ir al inicio de la trivia en cualquier momento del juego **para** poder comenzar nuevamente.
+
