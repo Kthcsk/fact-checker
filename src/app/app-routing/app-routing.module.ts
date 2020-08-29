@@ -11,9 +11,11 @@ import { Level3Component } from '../components/level3/level3.component';
 import { Level4Component } from '../components/level4/level4.component';
 import { CorrectComponent } from '../components/correct/correct.component';
 import { WrongComponent } from '../components/wrong/wrong.component';
+import { SourceComponent } from '../components/source/source.component';
 
 const route: Routes = [
   { path:'home', component:  HomeComponent},
+  { path:'source', component:  SourceComponent},
   { path:'level1', component: Level1Component},
   { path:'level2', component: Level2Component},
   { path:'level3', component: Level3Component},
