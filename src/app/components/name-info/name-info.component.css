@@ -7,16 +7,26 @@ P, h2 {
   color: #F1F1F1;
 }
 
+h2 {
+  margin-bottom: 1em;
+}
+
 input {
   border-radius: 20px;
   outline: none;
   border: 0;
   height: 4.625em;
   width: 17em;
+  margin-bottom: 3.25em;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 ::placeholder {
   text-align: center;
+  font-weight: 400;
+  text-transform: none;
 }
 
 .txt-ctn {
@@ -29,6 +39,8 @@ input {
 }
 
 .square-info {
+  display: flex;
+  flex-direction: column;
   background-color: #0E98BF;
   border-radius: 10px;
   padding: 0.62em;
@@ -38,5 +50,13 @@ input {
 }
 
 .item-bottom {
-  margin-top: 4.5em;
+  margin-top: 2.70em;
+}
+
+.arrow-left {
+  margin-right: 6em;
+}
+
+.arrow-right {
+  margin-left: 5.25em;
 }
