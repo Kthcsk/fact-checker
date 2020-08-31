@@ -4,14 +4,50 @@
 }
 
 .text-ctn{
-    padding-top: 10em;
+    padding-top: 9em;
     color: #F1F1F1;
 }
 
 h4{
-    padding-top: 3em;
+    padding-top: 1.5em;
+    font-weight: 900;
+}
+
+h6{
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-weight: 900;
 }
 
 p{
-    padding-top: 8em;
+    padding-top: 2.8em;
+}
+
+.progress-porcent{
+    background-color: #A27CC1;
+    width: 17%;
+}
+
+
+/* Animación------------------------------------ */
+
+.covid1{
+    position: absolute;
+    animation-duration: 1.5s;
+}
+.covid2{
+    position: absolute;
+    animation-duration: 2s;
+}
+.covid3{
+    position: absolute;
+    animation-duration: 2s;
+}
+.covid4{
+    position: absolute;
+    animation-duration: 1.5s;
+}
+
+.click{
+    animation-duration: 2.5s;
 }
