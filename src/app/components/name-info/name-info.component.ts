@@ -9,6 +9,10 @@ export class NameInfoComponent implements OnInit {
 
   constructor() { }
 
+  captureName(userName) {
+    console.log(userName)
+  }
+
   ngOnInit(): void {
   }
 
