@@ -23,6 +23,11 @@ p{
     padding-top: 2.8em;
 }
 
+.progress-ctn{
+    height: 2.5em; 
+    width: 80%;
+}
+
 .progress-porcent{
     background-color: #A27CC1;
     width: 17%;
@@ -50,20 +55,74 @@ i.retry{
 .covid1{
     position: absolute;
     animation-duration: 1.5s;
+    margin-left: 11.94%; 
+    margin-top: 5.94%; 
+    width: 18%;
 }
 .covid2{
     position: absolute;
     animation-duration: 2s;
+    margin-left: 77%; 
+    margin-top: 8.75%; 
+    width: 19%;
 }
 .covid3{
     position: absolute;
     animation-duration: 2s;
+    margin-left: -4%; 
+    margin-top: 54.56%; 
+    width: 19%;
 }
 .covid4{
     position: absolute;
     animation-duration: 1.5s;
+    margin-left: 86%; 
+    margin-top: 85%; 
+    width: 10%;
 }
 
 .click{
     animation-duration: 2.5s;
+}
+
+
+/* Media tablet----------------------------------------- */
+
+@media (min-width: 420px) {
+    
+}
+
+/* Media pc----------------------------------------- */
+
+@media (min-width: 850px) {
+    .btn-retry{
+        width: 90px; 
+        height: 90px; 
+        bottom: 70px;
+    }
+    
+    p{
+        padding-top: 6em;
+    }
+
+    .progress-ctn{
+        height: 4em; 
+        width: 60%;
+    }
+
+    .covid2{
+        margin-left: 80.5%; 
+        margin-top: 8.75%; 
+        width: 18%;
+    }
+    .covid3{
+        margin-left: -4%; 
+        margin-top: 25%; 
+        width: 19%;
+    }
+    .covid4{
+        margin-left: 88.4%; 
+        margin-top: 50%; 
+        width: 10%;
+    }
 }
