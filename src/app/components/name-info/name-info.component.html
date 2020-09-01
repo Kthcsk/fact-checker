@@ -6,7 +6,7 @@
     <div class="flex-column">
       <div class="text-center txt-ctn">
         <h2>¿Cómo te llamas?</h2>
-        <input type="text" maxlength="20" placeholder="Escribe aquí tu nombre" id="name-user">
+        <input type="text" maxlength="20" autocomplete="off" placeholder="Escribe aquí tu nombre" id="name-user" #userName>
       </div>
       <div class="info-row">
           <div class="square-info mr-5">
@@ -17,6 +17,9 @@
             <p>Haz click en la “i” para ver las fuentes</p>
             <img class="arrow-right" src="../../../assets/image/flecha-pequena.svg" alt="">
           </div>
+      </div>
+      <div class="container d-flex flex-row justify-content-center align-items-center">
+        <button routerLink='/levels' class="btn rounded-circle btn-next"><i class="next fas fa-chevron-right" (click)="captureName(userName.value)"></i></button>
       </div>
     </div>
   </div>

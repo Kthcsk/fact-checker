@@ -29,22 +29,78 @@ i{
     width: 84%;
 }
 
+.btn-next{
+    width: 80px; 
+    height: 80px; 
+    bottom: 45px; 
+    position: absolute; 
+    background-color: #F1F1F1;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+i.next{
+    color: #562281;
+    font-size: 45px;
+}
+
 
 /* Animación------------------------------------ */
 
 .shine1{
     position: absolute;
     animation-duration: 2.5s;
+    margin-left: 20%; 
+    margin-top: 10%; 
+    width: 10%;
 }
 .shine2{
     position: absolute;
     animation-duration: 2s;
+    margin-left: 73%; 
+    margin-top: 39%; 
+    width: 13%;
 }
 .shine3{
     position: absolute;
     animation-duration: 2s;
+    margin-left: 12%; 
+    margin-top: 70%; 
+    width: 12%;
 }
 .shine4{
     position: absolute;
     animation-duration: 1.5s;
+    margin-left: 65%; 
+    margin-top: 88%; 
+    width: 10%;
+}
+
+/* Media pc----------------------------------------- */
+
+@media (min-width: 850px) {
+    .btn-next{
+        width: 90px; 
+        height: 90px; 
+        bottom: 70px;
+    }
+    .shine1{
+        margin-left: 15%; 
+        margin-top: 3%; 
+        width: 7%;
+    }
+    .shine2{
+        margin-left: 73%; 
+        margin-top: 9%; 
+        width: 12%;
+    }
+    .shine3{
+        margin-left: 26%; 
+        margin-top: 22%; 
+        width: 10%;
+    }
+    .shine4{
+        margin-left: 60%; 
+        margin-top: 30%; 
+        width: 5%;
+    }
 }

@@ -1,11 +1,50 @@
 <div class="container-fluid d-flex justify-content-center nav-bar">
-    <div class="container d-flex flex-row justify-content-center align-items-center">
-        <button class="btn rounded-circle btn-next"><i class="next fas fa-chevron-right"></i></button>
-    </div>
+    
     <div class="container-fluid d-flex align-items-center menu-ctn">
-        <div class="container d-flex flex-row justify-content-between align-items-center ctn-buttons">
+        <div class="container d-flex flex-row justify-content-between align-items-center">
             <button routerLink='/home'><i class="home fas fa-home"></i></button>
-            <button routerLink='/source'><i class="source fas fa-info"></i></button>
+            <button type="button" class="btn" data-toggle="modal" data-target="#staticBackdrop">
+                <i class="source fas fa-info"></i>
+            </button>
         </div>
     </div>
 </div>
+
+
+<!-------------------------- Modal ------------------------>
+
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title title" id="staticBackdropLabel">Fuentes confiables</h4>
+          <button type="button" class="close bg-alert" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container text-left  txt-ctn">
+                <a href="https://www.unicef.org/es/coronavirus/datos-o-ficcion-cuanto-sabes-acerca-de-coronavirus-covid19#R892193-71eb91a8">UNICEF</a>
+                <p>Datos o ficción: ¿Cuánto sabes acerca de coronavirus?</p>
+                <a href="https://factchecking.cl/fact-checking-2020-covid-19/verificaciones/">Fact Checking</a>
+                <p>Fact checking 2020 Covid-19</p>
+                <a href="https://www.bbc.com/mundo/noticias-51794632">BBC News</a>
+                <p>10 mitos y consejos falsos sobre el coronavirus que debes ignorar</p>
+                <a href="https://www.fastcheck.cl/category/covid19/">Fast Check CL</a>
+                <p>Fact-checking al Covid-19</p>
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses">World Health Organization</a>
+                <p>Q&A on coronaviruses (COVID-19)</p>
+                <a href="https://www.nature.com/articles/s41591-020-0820-9?utm_source=twitter&utm_medium=social&utm_content=organic&utm_campaign=NGMT_USG_JC01_GL_NRJournals">Nature medicine</a>
+                <p>The proximal origin of SARS-CoV-2</p>
+                <a href="https://www.estrategiaynegocios.net/centroamericaymundo/1360639-330/10-fake-news-sobre-el-coronavirus">Revista Estrategia & Negocios</a>
+                <p>10 'fake news' sobre el coronavirus</p>
+                <a href="https://www.heart.org/en/news/2020/03/19/precauciones-acerca-del-coronavirus-para-pacientes-y-personas-que-enfrentan-riesgos-mayores">Heart.org</a>
+                <p>Precauciones acerca del coronavirus para personas que enfrentan riesgos mayores</p>
+            </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button type="button" class="btn btn-close" data-dismiss="modal">¡Entendido!</button>
+        </div>
+      </div>
+    </div>
+  </div>
