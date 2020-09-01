@@ -1,6 +1,7 @@
 .bg-color {
   height: 100vh;
   background:#23BDEA;
+  min-width: 350px;
 }
 
 .txt-ctn {
@@ -9,4 +10,32 @@
 
 h2, h3, h6, p {
   color: #F1F1F1;
+}
+
+.btn-next{
+  width: 80px;
+  height: 80px;
+  bottom: 45px;
+  position: absolute;
+  background-color: #F1F1F1;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+i.next{
+  color: #562281;
+  font-size: 45px;
+}
+
+.banner {
+  min-width: 350px;
+  max-height: 300px;
+}
+
+.logo {
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.text-btn {
+  margin-top: 0.75em;
 }

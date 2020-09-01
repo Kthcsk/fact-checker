@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserNameService } from '../../services/user-name.service';
 
 @Component({
   selector: 'app-levels',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LevelsComponent implements OnInit {
 
-  constructor() { }
+  private name: string
+  
+  get userName(): string {
+    return this.name
+  }
+
+  constructor(userName:UserNameService) { }
 
   ngOnInit(): void {
   }
