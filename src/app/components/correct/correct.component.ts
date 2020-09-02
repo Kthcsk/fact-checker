@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { UserNameService } from '../../services/user-name.service';
 
 @Component({
   selector: 'app-correct',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CorrectComponent implements OnInit {
 
-  constructor() { }
+  get userName(): string {
+    return this.userNameService.userName;
+  }
+
+  constructor(private userNameService: UserNameService) { }
 
   ngOnInit(): void {
   }
