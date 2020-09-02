@@ -18,9 +18,12 @@ import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
 import { LevelsJsonService } from '../app/services/levels-json.service';
 import { HttpClientModule } from '@angular/common/http';
+
+import { Wrong2Component } from './components/wrong2/wrong2.component';
 import { Levels2UnlockedComponent } from './components/levels2-unlocked/levels2-unlocked.component';
 import { Levels3UnlockedComponent } from './components/levels3-unlocked/levels3-unlocked.component';
 import { Levels4UnlockedComponent } from './components/levels4-unlocked/levels4-unlocked.component';
+
 
 @NgModule({
   declarations: [
@@ -36,9 +39,11 @@ import { Levels4UnlockedComponent } from './components/levels4-unlocked/levels4-
     NameInfoComponent,
     LevelsComponent,
     SourceComponent,
+    Wrong2Component,
     Levels2UnlockedComponent,
     Levels3UnlockedComponent,
     Levels4UnlockedComponent
+
   ],
   imports: [
     BrowserModule,
