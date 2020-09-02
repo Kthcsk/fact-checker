@@ -144,13 +144,12 @@
                 {
                     "number": 6,
                     "question":"¿Cómo se llama al síntoma de dificultad para respirar?",
-                    "options":[
+                    "options":
                         {
                             "a":"Disnea",
                             "b":"Cefalea",
                             "c":"Hiperventilación"
-                        }
-                    ],
+                        },
                     "answer": "Disnea",
                     "explanation":"Pendiente"
                 }
