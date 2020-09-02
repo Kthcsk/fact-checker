@@ -29,7 +29,7 @@ margin-top: 1.5rem;
 color: #3F3F3F;
 width: 18rem;
 background-color: #F1F1F1;
-padding: 1em;
+padding: 1.5em;
 border-radius: 15px;
 margin-top: 2rem;
 }
@@ -48,6 +48,29 @@ i.next{
   font-size: 45px;
 }
 
-.ocho{
+.ctn-options{
   flex-direction: column;
+}
+
+/* Modal------------------------------------ */
+
+h6.explanation{
+  font-size: 1.06rem;
+  color: #3F3F3F;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.title{
+  font-weight: 900;
+  color: #3F3F3F;
+}
+
+.btn-close{
+  background-color: #562281;
+  font-size: 25px;
+  color: #F1F1F1;
+  padding: 12px;
+  border-radius: 20px;
 }
