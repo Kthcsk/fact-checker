@@ -1,4 +1,4 @@
-<div class="container-fluid level3-ctn">
+<div class="container-fluid level4-ctn">
     <div class="text-center ctn-virus">
         <h4>¡Que el virus no te ataque!</h4>
         <div class="d-flex justify-content-center" style="margin-top: 1em;">
@@ -13,7 +13,9 @@
             <div class="cS"> <h6>{{question.title}}</h6></div>
             <div *ngFor="let option of question.options">
                 <button class="btn optionS" style="width: 16rem;" type="submit">{{ option.a }}</button>
+                <br>
                 <button class="btn optionS" style="width: 16rem;" type="submit">{{ option.b }}</button>
+                <br>
                 <button class="btn optionS" style="width: 16rem;" type="submit">{{ option.c }}</button>
             </div>
         </div>
@@ -30,7 +32,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title text-center title" id="exampleModalLabel">La respuesta correcta es {{question.answer}}</h4>
+        <h4 class="modal-title text-left title" id="exampleModalLabel">La respuesta correcta es: <br> {{question.answer}}</h4>
         
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
