@@ -44,6 +44,8 @@ import { Wrong4Component } from './components/wrong4/wrong4.component';
     NameInfoComponent,
     LevelsComponent,
     SourceComponent,
+
+
     Wrong2Component,
     Levels2UnlockedComponent,
     Levels3UnlockedComponent,
@@ -53,6 +55,7 @@ import { Wrong4Component } from './components/wrong4/wrong4.component';
     Wrong4Component,
     Correct3Component,
     Correct4Component
+
 
   ],
   imports: [
