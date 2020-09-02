@@ -1,10 +1,15 @@
-.level3-ctn {
+.level4-ctn {
   background-color: #23BDEA;
   height: 100vh;
 }
 
 .ctn-virus{
   padding-top: 2.5rem;
+}
+
+.text-ctn{
+  display: flex;
+  flex-direction: column;
 }
 
 h4{
@@ -18,11 +23,6 @@ box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
 color: #F1F1F1;
 margin-top: 1.5rem;
-}
-
-.optionS:focus{
-  background-color: #562281;
-
 }
 
 .cS {
@@ -49,7 +49,9 @@ i.next{
 }
 
 .ctn-options{
+  display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* Modal------------------------------------ */
@@ -69,7 +71,7 @@ h6.explanation{
 
 .btn-close{
   background-color: #562281;
-  font-size: 25px;
+  font-size: 20px;
   color: #F1F1F1;
   padding: 12px;
   border-radius: 20px;
