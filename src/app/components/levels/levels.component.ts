@@ -8,13 +8,11 @@ import { UserNameService } from '../../services/user-name.service';
 })
 export class LevelsComponent implements OnInit {
 
-  private name: string
-  
   get userName(): string {
-    return this.name
+    return this.userNameService.userName;
   }
 
-  constructor(userName:UserNameService) { }
+  constructor(private userNameService: UserNameService) { }
 
   ngOnInit(): void {
   }

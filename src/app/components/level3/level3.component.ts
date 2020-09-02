@@ -71,32 +71,16 @@ export class Level3Component implements OnInit {
 },
   ];
 
-  index:any;
-  history = [];
+  index:any=0;
 
   constructor() { }
 
-  setHistory(index: any) {
-    this.history.push(index);
-  }
-  checkHistory(index) {
-    return this.history.includes(index);
-  }
-  getRandomIndex() {
-    return Math.floor(Math.random() * this.questions.length);
-  }
-
   nextQuestion(){
-    this.index = this.getRandomIndex();
-    if(this.checkHistory(this.index) === false) {
-      this.question = this.questions[this.index];
-    } else {
-      this.index = this.getRandomIndex();
-    }
-    this.setHistory(this.index);
+    this.question = this.questions[(this.index++)];
   }
 
   ngOnInit(): void {
+    this.question = this.questions[(this.index)];
   }
 
 }

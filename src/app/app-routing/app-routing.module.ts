@@ -5,6 +5,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../components/home/home.component'
 import { NameInfoComponent } from '../components/name-info/name-info.component';
 import { LevelsComponent } from '../components/levels/levels.component';
+import { Levels2UnlockedComponent } from '../components/levels2-unlocked/levels2-unlocked.component';
+import { Levels3UnlockedComponent } from '../components/levels3-unlocked/levels3-unlocked.component';
+import { Levels4UnlockedComponent } from '../components/levels4-unlocked/levels4-unlocked.component';
 import { Level1Component } from '../components/level1/level1.component';
 import { Level2Component } from '../components/level2/level2.component';
 import { Level3Component } from '../components/level3/level3.component';
@@ -24,6 +27,9 @@ const route: Routes = [
   { path:'correct', component: CorrectComponent},
   { path:'name-info', component: NameInfoComponent},
   { path:'levels', component: LevelsComponent},
+  { path:'levels2-unlocked', component: Levels2UnlockedComponent},
+  { path:'levels3-unlocked', component: Levels3UnlockedComponent},
+  { path:'levels4-unlocked', component: Levels4UnlockedComponent},
   { path:'', pathMatch: 'full', redirectTo: '/home'},
 ]
 
