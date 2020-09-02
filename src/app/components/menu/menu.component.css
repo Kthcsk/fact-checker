@@ -18,23 +18,60 @@ button{
     background: #00B2ED;
     border: none;
     font-size: 45px;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
 }
 
 i.home, .source{
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #F1F1F1;
+    width: 1.5em;
 }
 
-.btn-retry{
-    width: 80px; 
-    height: 80px; 
-    bottom: 45px; 
-    position: absolute; 
-    background-color: #F1F1F1;
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+/* Modal------------------------------------ */
+
+a{
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #3F3F3F;
 }
 
-i.retry{
-    color: #562281;
-    font-size: 45px;
+p{
+    font-size: 1.06rem;
+    color: #3F3F3F;
+    margin-bottom: 0.8rem;
+}
+
+.title{
+    font-weight: 900;
+    color: #3F3F3F;
+}
+
+.btn-close{
+    background-color: #562281;
+    font-size: 25px;
+    color: #F1F1F1;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+/* Media tablet----------------------------------------- */
+
+@media (min-width: 420px) {
+    .menu-ctn{
+        background-size: 950px;
+        height: 83px;
+    }
+}
+
+/* Media pc----------------------------------------- */
+
+@media (min-width: 850px) {
+    .menu-ctn{
+        background-size: 100%;
+        height: 90px;
+    }
 }
