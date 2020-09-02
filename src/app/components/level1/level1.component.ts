@@ -11,80 +11,80 @@ export class Level1Component implements OnInit {
   question: any;
   questions: Array<{}> = [
     {
-      id: 0,
-      title: "Las personas con asma tienen mayor riesgo ante el COVID-19",
-      options: [
-        {
-          a:"Verdadero",
-          b:"Falso"
-        }
+      "number": 1,
+      "question": "Las personas con ________ tienen mayor riesgo ante el COVID-19",
+      "options": [
+        "Asma",
+        "Diabetes",
+        "Hipertensión"
       ],
-      answer: "Verdadera",
-      "explanation":"Porque el COVID-19 afecta las vías respiratorias, entonces podria causar ataques de asma, neumonía y trastornos respiratorios agudos."
-    },
-      {
-        id: 1,
-        title: "Las infusiones con miel, limón o jengibre ¿curan el COVID-19?",
-        options: [
-          {
-            a:"Verdadero",
-            b:"Falso"
-          }
-        ],
-        answer: "Falso",
-        "explanation":"Las infusiones son las grandes aliadas para el alivio de los síntomas de la gripe y los resfriados, también de la covid. Sin embargo, esto no cura el covid."
-    },
-      {
-        id: 2,
-        title: "¿Las moscas domésticas pueden transmitir el COVID-19?",
-        options: [
-          {
-            a:"Verdadero",
-            b:"Falso"
-          }
-        ],
-        answer: "Falso",
-        "explanation":"Hasta la fecha no existe ningún dato ni información que indique que las moscas domésticas puedan transmitir el virus causante de la COVID-19."
-      },
-      {
-        id: 3,
-        title: "¿El coronavirus puede afectar a personas jóvenes?",
-        options: [
-          {
-            a:"Verdadero",
-            b:"Falso"
-          }
-      ],
-      answer: "Verdadera",
-      "explanation":"El nuevo coronavirus (2019-nCoV) puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas enfermedades (como el asma, la diabetes o las cardiopatías) tienen más probabilidades de enfermarse gravemente cuando adquieren la infección."
+      "answer": "Asma",
+      "explanation": "Porque el COVID-19 afecta las vías respiratorias, entonces podria causar ataques de asma, neumonía y trastornos respiratorios agudos."
     },
     {
-      id: 4,
-      title: "Los termómetros sin contacto detectan el COVID-19",
-      options: [
-        {
-          a:"Verdadero",
-          b:"Falso"
-        }
-    ],
-    answer: "Falso",
-    "explanation":"Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre. Sin embargo, no permiten detectar a personas infectadas por el virus de la COVID-19."
+      "number": 2,
+      "question": "Las infusiones con miel, limón o jengibre ¿curan el COVID-19?",
+      "options": [
+        "Si",
+        "No"
+      ],
+      "answer": "No",
+      "explanation": "Las infusiones son las grandes aliadas para el alivio de los síntomas de la gripe y los resfriados. Sin embargo, esto no cura el covid."
     },
     {
-      id: 5,
-      title: "¿Rociar el cuerpo con alcohol y cloro es efectivo para eliminar el Coronavirus? ",
-      options: [
-        {
-          a:"Verdadero",
-          b:"Falso"
-        }
-    ],
-    answer: "Falso",
-    "explanation":"Esto no tiene ningún efecto para que el virus no pueda acceder por su principal puerta de entrada, que es la mucosa respiratoria."
+      "number": 3,
+      "question": "¿Las moscas pueden transmitir el COVID-19?",
+      "options": [
+        "Verdadero",
+        "Falso"
+      ],
+      "answer": "Falso",
+      "explanation": "Hasta la fecha no existe ningún dato ni información que indique que las moscas puedan transmitir el virus causante de la COVID-19."
     },
-      ];
+    {
+      "number": 4,
+      "question": "El coronavirus puede afectar:",
+      "options": [
+        "Solo a ancianos",
+        "Solo a jóvenes",
+        "A todas las personas"
+      ],
+      "answer": "A todas las personas",
+      "explanation": "Puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas enfermedades tienen más probabilidades de enfermarse gravemente cuando adquieren la infección."
+    },
+    {
+      "number": 5,
+      "question": "Los termómetros sin contacto detectan ________",
+      "options": [
+        "El COVID-19",
+        "Fiebre",
+        "Presión arterial"
+      ],
+      "answer": "Fiebre",
+      "explanation": "Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre."
+    },
+    {
+      "number": 6,
+      "question": "Rociar el cuerpo con cloro puede ________ ",
+      "options": [
+        "Proteger del COVID-19",
+        "Dañar la piel",
+        "Aclarar la piel"
+      ],
+      "answer": "Dañar la piel",
+      "explanation": "Rociar el cuerpo con cloro, puede causar quemaduras en la piel."
+    }
+
+  ]
+
 
   index:any=0;
+  answer: any;
+  options: any;
+
+  correctOption: Object;
+  wrongOption: Object;
+
 
   constructor(private router: Router) {
   }
@@ -95,6 +95,21 @@ export class Level1Component implements OnInit {
     } else {
       this.router.navigateByUrl('/correct');
     }
+  }
+
+  getAnswer(option:any) {
+    if(option === this.question.answer) {
+      this.correctOption = option;
+      this.wrongOption = {};
+    } else {
+      this.wrongOption = option;
+      this.correctOption = {};
+    }
+    console.log(this.wrongOption)
+  }
+
+  getCorona() {
+
   }
 
   ngOnInit(): void {

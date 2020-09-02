@@ -25,6 +25,17 @@ color: #F1F1F1;
 margin-top: 1.5rem;
 }
 
+.wrong{
+  background-color: #562281;
+}
+.correct {
+background-color: #7ED634;
+}
+
+.hola{
+  background:red;
+}
+
 .cS {
 color: #3F3F3F;
 width: 18rem;
@@ -76,3 +87,4 @@ h6.explanation{
   padding: 12px;
   border-radius: 20px;
 }
+
