@@ -1,6 +1,6 @@
 .wrong-ctn{
     height: 100vh;
-    background-color: #562281;  
+    background-color: #562281;
 }
 
 .text-ctn{
@@ -24,7 +24,7 @@ p{
 }
 
 .progress-ctn{
-    height: 2.5em; 
+    height: 2.5em;
     width: 80%;
 }
 
@@ -33,13 +33,17 @@ p{
     width: 17%;
 }
 
+span {
+  text-transform: capitalize;
+}
+
 /* Botón siguiente------------------------------------ */
 
 .btn-retry{
-    width: 80px; 
-    height: 80px; 
-    bottom: 45px; 
-    position: absolute; 
+    width: 80px;
+    height: 80px;
+    bottom: 45px;
+    position: absolute;
     background-color: #F1F1F1;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 }
@@ -55,29 +59,29 @@ i.retry{
 .covid1{
     position: absolute;
     animation-duration: 1.5s;
-    margin-left: 11.94%; 
-    margin-top: 5.94%; 
+    margin-left: 11.94%;
+    margin-top: 5.94%;
     width: 18%;
 }
 .covid2{
     position: absolute;
     animation-duration: 2s;
-    margin-left: 77%; 
-    margin-top: 8.75%; 
+    margin-left: 77%;
+    margin-top: 8.75%;
     width: 19%;
 }
 .covid3{
     position: absolute;
     animation-duration: 2s;
-    margin-left: -4%; 
-    margin-top: 54.56%; 
+    margin-left: -4%;
+    margin-top: 54.56%;
     width: 19%;
 }
 .covid4{
     position: absolute;
     animation-duration: 1.5s;
-    margin-left: 86%; 
-    margin-top: 85%; 
+    margin-left: 86%;
+    margin-top: 85%;
     width: 10%;
 }
 
@@ -90,50 +94,50 @@ i.retry{
 
 @media (min-width: 570px) {
     .covid2{
-        margin-left: 80.5%; 
-        margin-top: 8.75%; 
+        margin-left: 80.5%;
+        margin-top: 8.75%;
         width: 18%;
     }
     .covid3{
-        margin-left: -4%; 
-        margin-top: 36%; 
+        margin-left: -4%;
+        margin-top: 36%;
         width: 19%;
     }
     .covid4{
-        margin-left: 88.4%; 
-        margin-top: 50%; 
+        margin-left: 88.4%;
+        margin-top: 50%;
         width: 10%;
     }
-    
+
 }
 
 /* Media pc----------------------------------------- */
 
 @media (min-width: 850px) {
     .btn-retry{
-        width: 90px; 
-        height: 90px; 
+        width: 90px;
+        height: 90px;
         bottom: 70px;
     }
 
     .progress-ctn{
-        height: 4em; 
+        height: 4em;
         width: 60%;
     }
 
     .covid2{
-        margin-left: 80.5%; 
-        margin-top: 8.75%; 
+        margin-left: 80.5%;
+        margin-top: 8.75%;
         width: 18%;
     }
     .covid3{
-        margin-left: -4%; 
-        margin-top: 25%; 
+        margin-left: -4%;
+        margin-top: 25%;
         width: 19%;
     }
     .covid4{
-        margin-left: 88.4%; 
-        margin-top: 50%; 
+        margin-left: 88.4%;
+        margin-top: 50%;
         width: 10%;
     }
 }
@@ -142,23 +146,23 @@ i.retry{
 
 @media (min-width: 1200px) {
     .covid1{
-        margin-left: 11.94%; 
-        margin-top: 4%; 
+        margin-left: 11.94%;
+        margin-top: 4%;
         width: 15%;
     }
     .covid2{
-        margin-left: 85%; 
-        margin-top: 3%; 
+        margin-left: 85%;
+        margin-top: 3%;
         width: 14%;
     }
     .covid3{
-        margin-left: -2%; 
-        margin-top: 15%; 
+        margin-left: -2%;
+        margin-top: 15%;
         width: 12%;
     }
     .covid4{
-        margin-left: 92%; 
-        margin-top: 28%; 
+        margin-left: 92%;
+        margin-top: 28%;
         width: 7%;
     }
     .text-ctn{
@@ -171,7 +175,7 @@ i.retry{
         padding-top: 5em;
     }
     .progress-ctn{
-        height: 4em; 
+        height: 4em;
         width: 50%;
     }
 }
