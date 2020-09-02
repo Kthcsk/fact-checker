@@ -20,7 +20,7 @@ export class Level1Component implements OnInit {
         }
       ],
       answer: "Verdadera",
-      "explanation":"Las personas con asma tienen un mayor riesgo de desarrollar una enfermedad grave por COVID-19, este afecta las vías respiratorias y puede causar ataques de asma, neumonía y trastornos respiratorios agudos."
+      "explanation":"Porque el COVID-19 afecta las vías respiratorias, entonces podria causar ataques de asma, neumonía y trastornos respiratorios agudos."
     },
       {
         id: 1,
@@ -60,14 +60,14 @@ export class Level1Component implements OnInit {
     },
     {
       id: 4,
-      title: "Los termómetros sin contacto NO detectan el COVID-19",
+      title: "Los termómetros sin contacto detectan el COVID-19",
       options: [
         {
           a:"Verdadero",
           b:"Falso"
         }
     ],
-    answer: "Verdadera",
+    answer: "Falso",
     "explanation":"Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre. Sin embargo, no permiten detectar a personas infectadas por el virus de la COVID-19."
     },
     {

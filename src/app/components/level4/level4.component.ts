@@ -28,7 +28,7 @@ export class Level4Component implements OnInit {
       title: "Evitar tocarse la cara, nariz y ________.",
       options: [
         {
-        a: "Codos", 
+        a: "Codos",
         b:"Pies",
         c:"Ojos"
       }
@@ -92,11 +92,11 @@ export class Level4Component implements OnInit {
 
 index:any=0;
 
-  constructor(private router: Router) { 
-    
+  constructor(private router: Router) {
+
   }
 
-  
+
   nextQuestion(){
     if (this.index <= this.questions.length -1) {
       return this.question = this.questions[(this.index++)];
