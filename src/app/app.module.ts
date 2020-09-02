@@ -18,6 +18,7 @@ import { AppRoutingModule } from '../app/app-routing/app-routing.module';
 
 import { LevelsJsonService } from '../app/services/levels-json.service';
 import { HttpClientModule } from '@angular/common/http';
+import { Wrong2Component } from './wrong2/wrong2.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { HttpClientModule } from '@angular/common/http';
     CorrectComponent,
     NameInfoComponent,
     LevelsComponent,
-    SourceComponent
+    SourceComponent,
+    Wrong2Component
   ],
   imports: [
     BrowserModule,

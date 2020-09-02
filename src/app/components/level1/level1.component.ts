@@ -18,7 +18,9 @@ export class Level1Component implements OnInit {
           a:"Verdadero",
           b:"Falso"
         }
-      ]
+      ],
+      answer: "Verdadera",
+      "explanation":"Las personas con asma tienen un mayor riesgo de desarrollar una enfermedad grave por COVID-19, este afecta las vías respiratorias y puede causar ataques de asma, neumonía y trastornos respiratorios agudos."
     },
       {
         id: 1,
@@ -28,7 +30,9 @@ export class Level1Component implements OnInit {
             a:"Verdadero",
             b:"Falso"
           }
-      ]
+        ],
+        answer: "Falso",
+        "explanation":"Las infusiones son las grandes aliadas para el alivio de los síntomas de la gripe y los resfriados, también de la covid. Sin embargo, esto no cura el covid."
     },
       {
         id: 2,
@@ -38,7 +42,9 @@ export class Level1Component implements OnInit {
             a:"Verdadero",
             b:"Falso"
           }
-        ]
+        ],
+        answer: "Falso",
+        "explanation":"Hasta la fecha no existe ningún dato ni información que indique que las moscas domésticas puedan transmitir el virus causante de la COVID-19."
       },
       {
         id: 3,
@@ -48,7 +54,9 @@ export class Level1Component implements OnInit {
             a:"Verdadero",
             b:"Falso"
           }
-      ]
+      ],
+      answer: "Verdadera",
+      "explanation":"El nuevo coronavirus (2019-nCoV) puede infectar a personas de todas las edades, si bien se ha observado que las personas mayores y las que padecen algunas enfermedades (como el asma, la diabetes o las cardiopatías) tienen más probabilidades de enfermarse gravemente cuando adquieren la infección."
     },
     {
       id: 4,
@@ -58,7 +66,9 @@ export class Level1Component implements OnInit {
           a:"Verdadero",
           b:"Falso"
         }
-    ]
+    ],
+    answer: "Verdadera",
+    "explanation":"Los termómetros sin contacto resultan eficaces para detectar a personas con fiebre. Sin embargo, no permiten detectar a personas infectadas por el virus de la COVID-19."
     },
     {
       id: 5,
@@ -68,7 +78,9 @@ export class Level1Component implements OnInit {
           a:"Verdadero",
           b:"Falso"
         }
-    ]
+    ],
+    answer: "Falso",
+    "explanation":"Esto no tiene ningún efecto para que el virus no pueda acceder por su principal puerta de entrada, que es la mucosa respiratoria."
     },
       ];
 
