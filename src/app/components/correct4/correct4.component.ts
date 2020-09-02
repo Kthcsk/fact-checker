@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { UserNameService } from 'src/app/services/user-name.service';
 
 @Component({
-  selector: 'app-wrong2',
-  templateUrl: './wrong2.component.html',
-  styleUrls: ['./wrong2.component.css']
+  selector: 'app-correct4',
+  templateUrl: './correct4.component.html',
+  styleUrls: ['./correct4.component.css']
 })
-export class Wrong2Component implements OnInit {
+export class Correct4Component implements OnInit {
 
   get userName(): string {
     return this.userNameService.userName;
