@@ -1,0 +1,52 @@
+<div class="d-flex justify-content-start">
+  <img class="position-absolute w-75 mt-0" src="../../../assets/image/ala-pequena.svg" alt="">
+</div>
+<div class="container-fluid bg-color">
+  <div class="d-flex justify-content-center">
+    <div class="flex-column">
+      <div class="text-center txt-ctn">
+        <h2 class="text">Niveles</h2>
+        <h6 class="text"> <span>{{userName}}</span> selecciona el nivel</h6>
+        <h6 class="bold text">¡A jugar!</h6>
+      </div>
+
+      <div class="container-levels">
+        <div class="row-container">
+
+          <label class="btn square-levels level1 d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column text-center">
+              <i class="fas fa-lock-open"></i>
+              <h6>Nivel 1</h6>
+            </div>
+          </label>
+
+          <label class="btn square-levels level2 d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column text-center">
+              <i class="fas fa-lock-open"></i>
+              <h6>Nivel 2</h6>
+            </div>
+          </label>
+        </div>
+
+        <div class="row-container">
+            <label class="btn square-levels level3 d-flex justify-content-center align-items-center">
+                <div class="d-flex flex-column text-center">
+                  <i class="fas fa-lock-open"></i>
+                  <h6>Nivel 3</h6>
+                </div>
+            </label>
+
+            <label class="btn square-levels level4 d-flex justify-content-center align-items-center">
+              <div class="d-flex flex-column text-center">
+                  <i class="fas fa-lock"></i>
+                  <h6>Nivel 4</h6>
+              </div>
+            </label>
+        </div>
+        <div class="container d-flex flex-row justify-content-center align-items-center">
+          <button routerLink='/level3' class="btn rounded-circle btn-next"><i class="next fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

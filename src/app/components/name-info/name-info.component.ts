@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UserNameService } from '../../services/user-name.service';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-name-info',
@@ -7,10 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NameInfoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private http: HttpClient, private userNameService: UserNameService) { }
 
-  captureName(userName) {
+  userName: string;
+
+  captureName(userName:any) {
     console.log(userName)
+    this.userNameService.userName = userName;
+ 
   }
 
   ngOnInit(): void {

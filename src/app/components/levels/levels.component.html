@@ -5,45 +5,47 @@
   <div class="d-flex justify-content-center">
     <div class="flex-column">
       <div class="text-center txt-ctn">
-        <h2>Niveles</h2>
-        <h6> {{userName}} selecciona el nivel</h6>
-        <h6 class="boldS">¡A jugar!</h6>
+        <h2 class="text">Niveles</h2>
+        <h6 class="text"> <span>{{userName}}</span> selecciona el nivel</h6>
+        <h6 class="bold text">¡A jugar!</h6>
       </div>
 
       <div class="container-levels">
         <div class="row-container">
 
-          <button routerLink='/level1' type="button" class="btn square-levels level1 d-flex justify-content-center align-items-center">
+          <label class="btn square-levels level1 d-flex justify-content-center align-items-center">
             <div class="d-flex flex-column text-center">
               <i class="fas fa-lock-open"></i>
               <h6>Nivel 1</h6>
             </div>
-          </button>
+          </label>
 
-          <button routerLink='/level2' type="button" class="btn square-levels level2 d-flex justify-content-center align-items-center">
+          <label class="btn square-levels level2 d-flex justify-content-center align-items-center">
             <div class="d-flex flex-column text-center">
               <i class="fas fa-lock"></i>
               <h6>Nivel 2</h6>
             </div>
-          </button>
+          </label>
         </div>
 
         <div class="row-container">
-            <button routerLink='/level3' type="button" class="btn square-levels level3 d-flex justify-content-center align-items-center">
+            <label class="btn square-levels level3 d-flex justify-content-center align-items-center">
                 <div class="d-flex flex-column text-center">
                   <i class="fas fa-lock"></i>
                   <h6>Nivel 3</h6>
                 </div>
-            </button>
+            </label>
 
-            <button routerLink='/level4' type="button" class="btn square-levels level4 d-flex justify-content-center align-items-center">
+            <label class="btn square-levels level4 d-flex justify-content-center align-items-center">
               <div class="d-flex flex-column text-center">
                   <i class="fas fa-lock"></i>
                   <h6>Nivel 4</h6>
               </div>
-            </button>
+            </label>
         </div>
-
+        <div class="container d-flex flex-row justify-content-center align-items-center">
+          <button routerLink='/level1' class="btn rounded-circle btn-next"><i class="next fas fa-chevron-right"></i></button>
+        </div>
       </div>
     </div>
   </div>

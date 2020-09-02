@@ -1,0 +1,78 @@
+h2, .text {
+  color: #F1F1F1;
+}
+
+span {
+  text-transform: capitalize;
+}
+
+.bg-color {
+  height: 100vh;
+  background:#23BDEA;
+}
+
+.btn-next{
+  width: 80px;
+  height: 80px;
+  bottom: 45px;
+  position: absolute;
+  background-color: #F1F1F1;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+i.next{
+  color: #562281;
+  font-size: 45px;
+}
+
+.txt-ctn {
+  margin-top: 7em;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.square-levels {
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+  width: 8.31em;
+  height: 7.56em;
+  margin: 0.95em;
+}
+
+.row-container {
+  display: flex;
+  flex-direction: row;
+}
+
+i {
+ font-size: 1.56rem;
+}
+
+.level1 {
+  border-radius: 20px 0px 0px 0px;
+  background: #A27CC1;
+  color: #F1F1F1;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+}
+
+.level2 {
+  border-radius: 0px 20px 0px 0px;
+  background: #9B63C9;
+  color: #F1F1F1;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+}
+
+.level3 {
+  border-radius: 0px 0px 0px 20px;
+  background: #6A3696;
+  color: #916EAF;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+}
+
+.level4 {
+  border-radius: 0px 0px 20px 0px;
+  background: #52207B;
+  color: #805F9C;
+  box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
+}

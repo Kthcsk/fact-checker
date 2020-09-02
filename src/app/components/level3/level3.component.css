@@ -1,28 +1,78 @@
 .level3-ctn {
-    background-color: #23BDEA;
-    height: 100vh;
-  }
-  
-  .optionS {
-  background: #0E98BF;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  color: #F1F1F1;
-  }
-  .cS {
-  color: #3F3F3F;
-  }
+  background-color: #23BDEA;
+  height: 100vh;
+}
 
-  .btn-next{
-    width: 80px; 
-    height: 80px; 
-    bottom: 45px; 
-    position: absolute; 
-    background-color: #F1F1F1;
-    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+.ctn-virus{
+  padding-top: 2.5rem;
+}
+
+.text-ctn{
+  display: flex;
+  flex-direction: column;
+}
+
+h4{
+  font-weight: 900;
+  color: #F1F1F1;
+}
+
+.optionS {
+background: #02708F;
+box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+color: #F1F1F1;
+margin-top: 1.5rem;
+}
+
+.cS {
+color: #3F3F3F;
+width: 18rem;
+background-color: #F1F1F1;
+padding: 1.5em;
+border-radius: 15px;
+margin-top: 2rem;
+}
+
+.btn-next{
+  width: 80px; 
+  height: 80px; 
+  bottom: 45px; 
+  position: absolute; 
+  background-color: #F1F1F1;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
 }
 
 i.next{
-    color: #562281;
-    font-size: 45px;
+  color: #562281;
+  font-size: 45px;
+}
+
+.ctn-options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Modal------------------------------------ */
+
+h6.explanation{
+  font-size: 1.06rem;
+  color: #3F3F3F;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.title{
+  font-weight: 900;
+  color: #3F3F3F;
+}
+
+.btn-close{
+  background-color: #562281;
+  font-size: 20px;
+  color: #F1F1F1;
+  padding: 12px;
+  border-radius: 20px;
 }
