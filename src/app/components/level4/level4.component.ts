@@ -101,7 +101,7 @@ index:any=0;
     if (this.index <= this.questions.length -1) {
       return this.question = this.questions[(this.index++)];
     } else {
-      this.router.navigateByUrl('/correct');
+      this.router.navigateByUrl('/correct4');
     }
   }
 

@@ -22,7 +22,7 @@
     </div> 
 
     <div class="container d-flex flex-row justify-content-center align-items-center">
-        <button type="button" (click)="nextQuestion()" class="btn rounded-circle btn-next" data-toggle="modal" data-target="#exampleModal"><i class="next fas fa-chevron-right"></i></button>
+        <button type="button"  class="btn rounded-circle btn-next" data-toggle="modal" data-target="#exampleModal"><i class="next fas fa-chevron-right"></i></button>
     </div>
 </div>
 
@@ -42,7 +42,7 @@
         <h6 class="explanation">{{question.explanation}}</h6>
       </div>
       <div class="modal-footer d-flex justify-content-center">
-        <button type="button" class="btn btn-close" data-dismiss="modal">¡Entendido!</button>
+        <button type="button" (click)="nextQuestion()" class="btn btn-close" data-dismiss="modal">¡Entendido!</button>
       </div>
     </div>
   </div>
