@@ -63,6 +63,11 @@ i {
   box-shadow: 4px 5px 6px rgba(0, 0, 0, 0.14);
 }
 
+.level2:focus{
+  box-shadow: none;
+  background: #02708F;
+}
+
 .level3 {
   border-radius: 0px 0px 0px 20px;
   background: #6A3696;
