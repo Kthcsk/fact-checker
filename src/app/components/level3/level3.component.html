@@ -11,10 +11,10 @@
     <div class="container text-center text-ctn">
         <div class="container-fluid d-flex justify-content-center ctn-options">
             <div class="cS"> <h6>{{question.title}}</h6></div>
-            <div *ngFor="let option of question.options">
-                <button class="btn optionS" style="width: 16rem;" type="submit">{{ option.a }}</button>
-                <br>
-                <button class="btn optionS" style="width: 16rem;" type="submit">{{ option.b }}</button>
+              <div class="col">
+                <button class="btn optionS" *ngFor="let option of question.options;"
+                  [ngClass]="{'correct': option === correctOption,
+                  'wrong': option === wrongOption}" (click)="getAnswer(option)" style="width: 16rem;" type="submit">{{option}}</button>
             </div>
         </div>
     </div>
